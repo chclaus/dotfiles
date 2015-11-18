@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# osx
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# git aliases
+alias gf='git gf'
+alias gl='git lg'
+alias gs='git st -sb'
+alias gc='git ci'
+alias gti=git
+alias g=git
+alias gu='git co master && git pull && git co dev && git rebase master && git co master && git rebase dev && git push && git co dev'
+alias gus='git stash; git co master && git pull && git co dev && git rebase master && git co master && git rebase dev && git push && git co dev; git stash pop'
+alias guc='git co .; git co master && git pull && git co dev && git rebase master && git co master && git rebase dev && git push && git co dev;'
+alias get='git co master && git pull && git co dev && git rebase master'
+alias gets='git stash && git co master && git pull && git co dev && git rebase master && git stash pop'
