@@ -83,3 +83,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 source ~/.functions
 source ~/.env
+source ~/.profile
