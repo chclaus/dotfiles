@@ -5,4 +5,4 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
         --exclude "nimrod.zsh-theme" \
         -avh --no-perms . ~;
 
-cd ~ && source ~/.zshrc;
+#cd ~ && source ~/.zshrc;
