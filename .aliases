@@ -15,3 +15,7 @@ alias gus='git stash; git co master && git pull && git co dev && git rebase mast
 alias guc='git co .; git co master && git pull && git co dev && git rebase master && git co master && git rebase dev && git push && git co dev;'
 alias get='git co master && git pull && git co dev && git rebase master'
 alias gets='git stash && git co master && git pull && git co dev && git rebase master && git stash pop'
+alias go='gsta && gup && gstaa'
+
+# applications
+alias imgoptim='/Applications/ImageOptim.app/Contents/MacOS/ImageOptim'
