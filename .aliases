@@ -2,6 +2,7 @@
 
 # osx
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias millies="date +%s"
 
 # git aliases
 alias gf='git gf'
