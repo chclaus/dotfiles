@@ -18,6 +18,7 @@ alias get='git co master && git pull && git co dev && git rebase master'
 alias gets='git stash && git co master && git pull && git co dev && git rebase master && git stash pop'
 alias go='gsta && gup && gstaa'
 alias gogogo='gsta && gup && gstaa && git push'
+alias gld='function _gld(){git log --pretty=format: --name-only --since="$1 days ago" | sort | uniq}; _gld'
 
 # applications
 alias imgoptim='/Applications/ImageOptim.app/Contents/MacOS/ImageOptim'
