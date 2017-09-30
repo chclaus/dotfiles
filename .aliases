@@ -22,3 +22,6 @@ alias gld='function _gld(){git log --pretty=format: --name-only --since="$1 days
 
 # applications
 alias imgoptim='/Applications/ImageOptim.app/Contents/MacOS/ImageOptim'
+
+# temporary stuff
+alias t='cd /Users/nimrod/Developer/talks/ansible/'
